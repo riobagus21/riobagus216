@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <img src="data:image/jpeg;base64,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" width="300px" height="300px" class="rounded-circle">
+          <h1 class="display-4">Sword Master Shop</h1>
+          <p class="lead">Menerima Jual Beli dan Pembuatan Pedang</p>
+        </div>
+      </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbSQH5glGHyff0hrvbm_dXzhQafDcAe9Kvg&usqp=CAU" style="display:block; margin:auto" width="600">
+    </div>
+
+<div class="container text-center">
+    <div class="row">
+    <div class="col">
+            <h1>About</h2>
+<div class="row">
+    <div class="col text justify">
+        <p class="text-justify">Manusia telah membuat dan menggunakan senjata berpedang dari mulai zaman Perunggu. Pedang yang dikembangkan dari belati ketika pembuatan pedang menjadi mungkin, sekitar 2 milenium sebelum masehi.</p>
+    </div>
+<div class="col text-justify">
+    <p class="text-juastify">Pedang bisa digunakan untuk berbagai hal. Namun, benda ini lebih sering digunakan untuk berperang melawan musuh. Saat ini, pedang sudah jarang ditemui, karena sudah banyak senjata modern. Meski mulai menghilang, ada dua negara yang masih menjaga keberadaan pedang.</p>
+</div>
+
+<div class="container text-center">
+    <div class="row">
+    <div class="col">
+            <h1>Portofolio</h2>
+    </div>
+    </div>
+
+    <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Pedang Tachi</h5>
+            <p class="text-justify">Dalam beberapa hal, Pedang Tachi mirip dengan katana, namun, dapat dibedakan dengan lengkungan yang lebih jelas dan pisau yang sedikit lebih panjang. Tachi biasanya digunakan oleh para prajurit berkuda, di mana panjang dan lengkungan ekstra pada pedang membuatnya sangat cocok untuk menebas prajurit musuh yang hanya berjalan kaki. Sebagai senjata pilihan ksatria Jepang, dan telah berevolusi selama bertahun-tahun, kini keduanya juga lebih mudah dibedakan antara satu sama lain, terutama karena fitting pada mata pisau dan bagaimana cara mereka dipakai.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhwYhAcQJtH4MmAIx0yZGqRUgfs8JIz204xQ&usqp=CAU">
+          <div class="card-body">
+            <h5 class="card-title">Katana</h5>
+            <p class="text-justify">Katana yang legendaris merupakan salah satu jenis pedang Jepang paling terkenal, yang sering disebut oleh banyak orang sebagai pedang samurai. Katana sendiri memiliki beberapa karakteristik yang membuatnya sangat mudah dikenali, seperti pisau bermata tunggal melengkung, ramping dengan rata-rata antara 60cm - 80cm. Kebanyakan katana memiliki tsuba berbentuk persegi atau bulat dan pegangan yang cukup panjang untuk menampung dua tangan</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Pedang Wakizashi</h5>
+            <p class="text-justify">Pedang Wakizashi adalah pedang Jepang tradisional lainnya, dengan ukuran yang lebih pendek jika dibandingkan dengan katana, karena rata-rata hanya berukuran antara 30 dan 60 sentimeter. Secara tradisional, para prajurit Samurai membawa pedang ini berdampingan bersama katana, karena wakizashi dapat digunakan sebagai senjata cadangan, atau dalam beberapa keadaan darurat, dan terkadang juga dapat digunakan untuk melakukan seppuku, atau ritual bunuh diri.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <h1> Contact Person </h1>
+
+<?php include 'footer.php'; ?>
+</body>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>JIKA INGIN MEMBUAT PEDANG ATAU CUSTOM PEDANG SESUAI KEINGINAN KALIAN BISA HUBUNGI NOMER YANG TERSEDIA
+          </h6>
+          <p>
+          Alamat: Jl. Jl. Baturraden timur, Kec. Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah 53198
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Jl. Baturraden timur, Kec. Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah 53198</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            swordmaster.ac.id
+          </p>
+          <p><i class="fas fa-phone me-3"></i> Telp (0281) 623345 </p>
+          <p><i class="fas fa-print me-3"></i> swordmaster.info</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  
+</footer>
+<!-- Footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
